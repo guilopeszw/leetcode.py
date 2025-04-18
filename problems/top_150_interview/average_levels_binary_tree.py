@@ -11,6 +11,7 @@ class Solution:
         averages = []
         q = deque()
         q.append(root)
+        print(q)
 
         while q:
             average = 0
