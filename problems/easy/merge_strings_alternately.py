@@ -6,4 +6,3 @@ def mergeAlternaly(word1 : str, word2 : str) -> str:
         if i < len(word2):
             merged += word2[i]
     return merged
-print(mergeAlternaly(word1, word2))
